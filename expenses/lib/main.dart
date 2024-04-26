@@ -17,7 +17,7 @@ class AppExpenses extends StatelessWidget {
       home: MyHomePage(),
       theme: theme.copyWith(
         colorScheme: theme.colorScheme.copyWith(
-          primary: Colors.purple,
+          primary: Colors.red,
           secondary: Colors.amber,
         ),
         textTheme: theme.textTheme.copyWith(
@@ -28,9 +28,10 @@ class AppExpenses extends StatelessWidget {
           color: Colors.black,
         )),
         appBarTheme: const AppBarTheme(
+          color: Colors.black,
           titleTextStyle: TextStyle(
             fontFamily: "OpenSans",
-            fontSize: 24,
+            fontSize: 22,
             fontWeight: FontWeight.bold,
           ),
         ),
